@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Derek Lamb — Portfolio</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="wrap">
+    <h1>Derek Lamb</h1>
+    <p>Guest Experience Manager • Data Science Portfolio</p>
+    <nav class="links">
+      <a href="mailto:derek.lamb@disney.com">Email</a>
+      <a href="https://www.linkedin.com/in/dlamb95" target="_blank">LinkedIn</a>
+      <a href="https://github.com/D-Lamb95" target="_blank">GitHub</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <h2>Projects</h2>
+    <div id="grid" class="grid"></div>
+  </main>
+
+  <footer class="wrap">
+    <small>© <span id="year"></span> Derek Lamb</small>
+  </footer>
+
+  <script src="projects.js"></script>
+  <script>
+    // put the project cards on the page
+    const grid = document.getElementById('grid');
+    projects.forEach(p => {
+      const card = document.createElement('article');
+      card.className = 'card';
+      card.innerHTML = `
+        <h3>${p.name}</h3>
+        <p>${p.description}</p>
+        <ul class="skills">${p.skills.map(s=>`<li>${s}</li>`).join('')}</ul>
+        <a class="btn" href="${p.link}" target="_blank" rel="noopener">View Repo</a>
+      `;
+      grid.appendChild(card);
+    });
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
