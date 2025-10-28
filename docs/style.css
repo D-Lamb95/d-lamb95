@@ -1,0 +1,16 @@
+:root { --bg:#0b1020; --fg:#e6e9f2; --muted:#aab1c6; --brand:#1d4ed8; --card:#121933; }
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif}
+.wrap{max-width:980px;margin:auto;padding:24px}
+h1,h2,h3{margin:0 0 8px}
+header .links a{color:var(--muted);margin-right:12px;text-decoration:none}
+header .links a:hover{color:var(--fg)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;margin-top:16px}
+.card{background:var(--card);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:18px;display:flex;flex-direction:column}
+.card h3{margin:0 0 6px}
+.card p{color:var(--muted)}
+.skills{list-style:none;padding:0;margin:10px 0;display:flex;flex-wrap:wrap;gap:6px}
+.skills li{background:rgba(255,255,255,.08);border-radius:12px;padding:4px 8px;font-size:12px}
+.btn{align-self:flex-start;margin-top:auto;display:inline-block;background:var(--brand);color:white;text-decoration:none;padding:8px 12px;border-radius:10px}
+.btn:hover{opacity:.9}
+footer{color:var(--muted)}
