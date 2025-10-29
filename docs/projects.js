@@ -21,12 +21,15 @@ const projects = [
     skills: ["NiFi", "HDFS", "Hive", "Spark", "ETL"],
   },
   {
-    name: "GBIF Biodiversity Analysis (North American Bird Data)",
-    description:
-      "Analyzed GBIF bird distribution patterns across the U.S., Canada, and Mexico; observation density and citizen-science impacts.",
-    link: "https://github.com/D-Lamb95/gbif-bird-biodiversity",
-    skills: ["Python", "GeoPandas", "Matplotlib", "Visualization"],
-  },
+  name: "Bird Migratory Timeseries Analysis",
+  description:
+    "Analyzed bird migration timing via temporal series to explore shifts across years using GBIF and climate data.",
+  link: "https://github.com/D-Lamb95/bird-migratory-timeseries-analysis",
+  readme: "https://github.com/D-Lamb95/bird-migratory-timeseries-analysis#readme",
+  notebook: "https://github.com/D-Lamb95/bird-migratory-timeseries-analysis/blob/main/YourNotebookName.ipynb",
+  skills: ["Python", "Pandas", "Time Series", "GeoPandas", "Visualization"],
+},
+
   {
     name: "Movie Database API Integration",
     description:
