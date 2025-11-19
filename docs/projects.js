@@ -7,7 +7,7 @@ const projects = [
   link: "https://github.com/D-Lamb95/renewable-energy-forecasting",
   readme: "https://github.com/D-Lamb95/renewable-energy-forecasting#readme",
   notebook:
-    "https://github.com/D-Lamb95/renewable-energy-forecasting/blob/main/Renewable Energy Project.ipynb",
+    "https://github.com/D-Lamb95/renewable-energy-forecasting/blob/main/Renewable_Energy_Project.ipynb",
   skills: ["Python", "Pandas", "ARIMA/SARIMA", "Regression", "Matplotlib"],
 },
   {
