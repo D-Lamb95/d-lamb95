@@ -1,13 +1,13 @@
 const projects = [
- {
+{
   name: "Renewable Energy Forecasting",
   description:
     "Predicted solar and wind energy production using EIA and CIMIS datasets through ARIMA/SARIMA models and regression techniques to identify temperature and seasonal trends.",
   page: "renewable-energy-forecasting.html",
-  link: "https://github.com/dlamb95/renewable-energy-forecasting",
-  readme: "https://github.com/dlamb95/renewable-energy-forecasting#readme",
+  link: "https://github.com/D-Lamb95/renewable-energy-forecasting",
+  readme: "https://github.com/D-Lamb95/renewable-energy-forecasting#readme",
   notebook:
-    "https://github.com/dlamb95/renewable-energy-forecasting/blob/main/Renewable_Energy_Project.ipynb",
+    "https://github.com/D-Lamb95/renewable-energy-forecasting/blob/main/Renewable_Energy_Project.ipynb",
   skills: ["Python", "Pandas", "ARIMA/SARIMA", "Regression", "Matplotlib"],
 },
   {
