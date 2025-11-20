@@ -73,14 +73,14 @@ const projects = [
   notebook: "https://github.com/D-Lamb95/Car-Theft-Analysis/blob/main/Car_Theft_Analysis.ipynb",
   skills: ["Python", "Pandas", "Matplotlib", "Data Visualization"],
 },
-  {
+{
   name: "WAVES Visitor Appointment Analysis",
   description:
-    "Analyzes visitor appointment patterns using WAVES system data to uncover monthly trends, weekday behavior, and operational volume insights.",
-  page: "waves-visitor-analysis.html",
-  link: "https://github.com/D-Lamb95/WAVES-Visitor-Analysis",
-  readme: "https://github.com/D-Lamb95/WAVES-Visitor-Analysis#readme",
-  notebook: "https://github.com/D-Lamb95/WAVES-Visitor-Analysis/blob/main/WAVES_Appointment_Data.ipynb",
+    "Analyzes visitor appointment patterns using WAVES system data to uncover monthly trends, weekday behavior, and operational insights.",
+  page: "waves-appointment-analysis.html",
+  link: "https://github.com/D-Lamb95/WAVES-Appointment-Analysis",
+  readme: "https://github.com/D-Lamb95/WAVES-Appointment-Analysis#readme",
+  notebook: "https://github.com/D-Lamb95/WAVES-Appointment-Analysis/blob/main/WAVES_Appointment_Data.ipynb",
   skills: ["Python", "Pandas", "Matplotlib", "Data Visualization", "Time Series"],
 },
  {
