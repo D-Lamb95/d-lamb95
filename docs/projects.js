@@ -74,12 +74,15 @@ const projects = [
   skills: ["Python", "Pandas", "Matplotlib", "Data Visualization"],
 },
   {
-    name: "WAVES Visitor Appointment Analysis",
-    description:
-      "Trend detection with stacked bars and lines; high-volume months and weekly patterns.",
-    link: "https://github.com/D-Lamb95/waves-visitor-analysis",
-    skills: ["Python", "Pandas", "Matplotlib", "Time Series"],
-  },
+  name: "WAVES Visitor Appointment Analysis",
+  description:
+    "Analyzes visitor appointment patterns using WAVES system data to uncover monthly trends, weekday behavior, and operational volume insights.",
+  page: "waves-visitor-analysis.html",
+  link: "https://github.com/D-Lamb95/WAVES-Visitor-Analysis",
+  readme: "https://github.com/D-Lamb95/WAVES-Visitor-Analysis#readme",
+  notebook: "https://github.com/D-Lamb95/WAVES-Visitor-Analysis/blob/main/WAVES_Appointment_Data.ipynb",
+  skills: ["Python", "Pandas", "Matplotlib", "Data Visualization", "Time Series"],
+},
  {
   name: "Amazon Review Text Mining & Sentiment Analysis",
   description:
