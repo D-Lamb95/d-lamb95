@@ -60,13 +60,16 @@ const projects = [
   notebook: "https://github.com/D-Lamb95/Lottery-Number-Analysis/blob/main/Lottery_Number_Analysis.ipynb",
   skills: ["Python", "Pandas", "Matplotlib", "SciPy", "EDA"],
 },
-  {
-    name: "Kia & Hyundai Theft Visualization",
-    description:
-      "Geospatial heatmaps and dashboards analyzing theft frequency and high-risk regions.",
-    link: "https://github.com/D-Lamb95/kia-hyundai-theft-viz",
-    skills: ["Python", "GeoPandas", "Power BI", "Viz"],
-  },
+ {
+  name: "Kia & Hyundai Theft Visualization",
+  description:
+    "Created geospatial heatmaps, frequency plots, and city-level dashboards analyzing Kia and Hyundai theft patterns using public vehicle theft datasets.",
+  page: "car-theft-analysis.html",
+  link: "https://github.com/D-Lamb95/YOUR-REPO-NAME-HERE",
+  readme: "https://github.com/D-Lamb95/YOUR-REPO-NAME-HERE#readme",
+  notebook: "https://github.com/D-Lamb95/YOUR-REPO-NAME-HERE/blob/main/Car_Theft_Analysis.ipynb",
+  skills: ["Python", "Pandas", "GeoPandas", "Matplotlib", "Data Visualization"],
+},
   {
     name: "WAVES Visitor Appointment Analysis",
     description:
