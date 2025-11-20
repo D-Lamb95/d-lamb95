@@ -82,9 +82,9 @@ const projects = [
   description:
     "NLP project analyzing Amazon product reviews to clean text, extract features, and build sentiment classification models that highlight common customer themes.",
   page: "amazon-review-analysis.html",
-  link: "https://github.com/D-Lamb95/Amazon-Review-Analysis",
-  readme: "https://github.com/D-Lamb95/Amazon-Review-Analysis#readme",
-  notebook: "https://github.com/D-Lamb95/Amazon-Review-Analysis/blob/main/Amazon_Review_Analysis.ipynb",
+  link: "https://github.com/D-Lamb95/Amazon-Review-Project",
+  readme: "https://github.com/D-Lamb95/Amazon-Review-Project#readme",
+  notebook: "https://github.com/D-Lamb95/Amazon-Review-Project/blob/main/Amazon_Review_Analysis.ipynb",
   skills: ["Python", "Pandas", "NLP", "Scikit-learn", "Text Mining"],
 },
 ];
