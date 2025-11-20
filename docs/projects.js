@@ -33,14 +33,16 @@ const projects = [
   notebook: "https://github.com/D-Lamb95/bird-migratory-timeseries-analysis/blob/main/YourNotebookName.ipynb",
   skills: ["Python", "Pandas", "Time Series", "GeoPandas", "Visualization"],
 },
-
   {
-    name: "Movie Database API Integration",
-    description:
-      "Python data mining with the OMDb API; JSON parsing and SQL integration to build a searchable movie dataset.",
-    link: "https://github.com/D-Lamb95/movie-database-api",
-    skills: ["Python", "APIs", "Requests", "SQL", "JSON"],
-  },
+  name: "Movie Recommendation System",
+  description:
+    "Content-based movie recommender using MovieLens data to suggest similar movies based on shared genres and cosine similarity.",
+  page: "movie-recommendation-system.html",
+  link: "https://github.com/D-Lamb95/Movie-Recommendation-System",
+  readme: "https://github.com/D-Lamb95/Movie-Recommendation-System#readme",
+  notebook: "https://github.com/D-Lamb95/Movie-Recommendation-System/blob/main/Movie_Recommendation.ipynb",
+  skills: ["Python", "Pandas", "NumPy", "Scikit-learn", "Recommender Systems"],
+},
   {
     name: "Weather Data Transformation and Cleansing",
     description:
