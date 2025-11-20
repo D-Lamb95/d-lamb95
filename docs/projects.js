@@ -14,10 +14,10 @@ const projects = [
   name: "Car Emissions Analysis",
   description:
     "Explores vehicle emissions data to compare CO₂ output across fuel types, engine sizes, and vehicle classes using Python-based exploratory analysis and visualization.",
-  page: "car-emissions-analysis.html",
-  link: "https://github.com/D-Lamb95/Car-Emissions-Analysis",
-  readme: "https://github.com/D-Lamb95/Car-Emissions-Analysis#readme",
-  notebook: "https://github.com/D-Lamb95/Car-Emissions-Analysis/blob/main/Car_Emissions_Analysis.ipynb",
+  page: "car-emission-analysis.html",
+  link: "https://github.com/D-Lamb95/Car-Emission-Analysis",
+  readme: "https://github.com/D-Lamb95/Car-Emission-Analysis#readme",
+  notebook: "https://github.com/D-Lamb95/Car-Emission-Analysis/blob/main/Car_Emissions_Analysis.ipynb",
   skills: ["Python", "Pandas", "Matplotlib", "Seaborn", "EDA"],
 },
  {
