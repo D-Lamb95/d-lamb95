@@ -54,7 +54,7 @@ const projects = [
   name: "Lottery Winning Numbers Analysis",
   description:
     "Explores historical Powerball, Mega Millions, and Pick 10 draws using density plots, histograms, and small multiples to understand number distributions and randomness.",
-  page: "lottery-number-analysis.html", // project page in your docs folder
+  page: "lottery-number-analysis.html", 
   link: "https://github.com/D-Lamb95/Lottery-Number-Analysis",
   readme: "https://github.com/D-Lamb95/Lottery-Number-Analysis#readme",
   notebook: "https://github.com/D-Lamb95/Lottery-Number-Analysis/blob/main/Lottery_Number_Analysis.ipynb",
