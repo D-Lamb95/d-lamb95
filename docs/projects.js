@@ -17,13 +17,16 @@ const projects = [
     link: "https://github.com/D-Lamb95/fraud-detection-aml-architecture",
     skills: ["NiFi", "HDFS", "Hive", "HBase", "Spark", "Architecture"],
   },
-  {
-    name: "End-to-End Data Pipeline with NiFi, Hive, and Spark",
-    description:
-      "Complete ETL pipeline using Students_Grading_Dataset: ingestion, storage, warehousing, and Spark analytics.",
-    link: "https://github.com/D-Lamb95/nifi-hive-spark-pipeline",
-    skills: ["NiFi", "HDFS", "Hive", "Spark", "ETL"],
-  },
+ {
+  name: "Airport Delay Rate Analysis",
+  description:
+    "Analyzes historical airport delay patterns using Python and visualization to compare delay rates across airports, months, and delay types.",
+  page: "airport-delay-analysis.html",
+  link: "https://github.com/D-Lamb95/Airport-Delay-Machine-Learning",
+  readme: "https://github.com/D-Lamb95/Airport-Delay-Machine-Learning#readme",
+  notebook: "https://github.com/D-Lamb95/Airport-Delay-Machine-Learning/blob/main/Airport_Delay_Analysis.ipynb",
+  skills: ["Python", "Pandas", "Matplotlib", "Seaborn", "EDA"],
+},
   {
   name: "Bird Migratory Timeseries Analysis",
   description:
