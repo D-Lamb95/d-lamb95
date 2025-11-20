@@ -51,12 +51,15 @@ const projects = [
     skills: ["Python", "BeautifulSoup", "OpenWeatherMap API", "Pandas"],
   },
   {
-    name: "Lottery Winning Numbers Analysis",
-    description:
-      "Tableau/Power BI visuals exploring randomness and frequency of lottery winning numbers.",
-    link: "https://github.com/D-Lamb95/lottery-winning-numbers",
-    skills: ["Power BI", "Tableau", "Python", "Viz"],
-  },
+  name: "Lottery Winning Numbers Analysis",
+  description:
+    "Explores historical Powerball, Mega Millions, and Pick 10 draws using density plots, histograms, and small multiples to understand number distributions and randomness.",
+  page: "lottery-number-analysis.html", // project page in your docs folder
+  link: "https://github.com/D-Lamb95/Lottery-Number-Analysis",
+  readme: "https://github.com/D-Lamb95/Lottery-Number-Analysis#readme",
+  notebook: "https://github.com/D-Lamb95/Lottery-Number-Analysis/blob/main/Lottery_Number_Analysis.ipynb",
+  skills: ["Python", "Pandas", "Matplotlib", "SciPy", "EDA"],
+},
   {
     name: "Kia & Hyundai Theft Visualization",
     description:
