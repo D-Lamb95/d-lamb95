@@ -77,7 +77,7 @@ const projects = [
     link: "https://github.com/D-Lamb95/waves-visitor-analysis",
     skills: ["Python", "Pandas", "Matplotlib", "Time Series"],
   },
-  {
+ {
   name: "Amazon Review Text Mining & Sentiment Analysis",
   description:
     "NLP project analyzing Amazon product reviews to clean text, extract features, and build sentiment classification models that highlight common customer themes.",
