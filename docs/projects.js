@@ -11,12 +11,15 @@ const projects = [
   skills: ["Python", "Pandas", "ARIMA/SARIMA", "Regression", "Matplotlib"],
 },
   {
-    name: "Fraud Detection & AML Big Data Architecture",
-    description:
-      "Designed a scalable $100M financial data ecosystem using NiFi, HDFS, Hive, HBase, and Spark to support real-time fraud detection and compliance monitoring.",
-    link: "https://github.com/D-Lamb95/fraud-detection-aml-architecture",
-    skills: ["NiFi", "HDFS", "Hive", "HBase", "Spark", "Architecture"],
-  },
+  name: "Car Emissions Analysis",
+  description:
+    "Explores vehicle emissions data to compare CO₂ output across fuel types, engine sizes, and vehicle classes using Python-based exploratory analysis and visualization.",
+  page: "car-emissions-analysis.html",
+  link: "https://github.com/D-Lamb95/Car-Emissions-Analysis",
+  readme: "https://github.com/D-Lamb95/Car-Emissions-Analysis#readme",
+  notebook: "https://github.com/D-Lamb95/Car-Emissions-Analysis/blob/main/Car_Emissions_Analysis.ipynb",
+  skills: ["Python", "Pandas", "Matplotlib", "Seaborn", "EDA"],
+},
  {
   name: "Airport Delay Rate Analysis",
   description:
