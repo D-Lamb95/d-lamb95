@@ -50,12 +50,15 @@ const projects = [
   skills: ["Python", "APIs", "Requests", "SQL"],
 },
   {
-    name: "Weather Data Transformation and Cleansing",
-    description:
-      "Merged BeautifulSoup web scraping with OpenWeatherMap API; cleaned and transformed weather data for modeling.",
-    link: "https://github.com/D-Lamb95/weather-data-transformation",
-    skills: ["Python", "BeautifulSoup", "OpenWeatherMap API", "Pandas"],
-  },
+  name: "Weather Data Transformation and Cleaning",
+  description:
+    "Transforms and cleans raw weather data from multiple sources by standardizing formats, converting temperature units, handling missing values, and preparing a unified dataset for analysis and modeling.",
+  page: "weather-data-transformation.html",
+  link: "https://github.com/D-Lamb95/Weather-Data-Transformation",
+  readme: "https://github.com/D-Lamb95/Weather-Data-Transformation#readme",
+  notebook: "https://github.com/D-Lamb95/Weather-Data-Transformation/blob/main/Weather_Data_Transformation.ipynb",
+  skills: ["Python", "Pandas", "Data Cleaning", "ETL", "Time Series"],
+},
   {
   name: "Lottery Winning Numbers Analysis",
   description:
